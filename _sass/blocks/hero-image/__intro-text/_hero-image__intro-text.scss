@@ -1,0 +1,17 @@
+.hero-image__intro-text {
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+    font-family: SpicyRice;
+    text-align: left;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    &__small {
+        font-size: 48px;
+        color: #ffc000;
+    }
+    &__large {
+        font-size: 64px;
+        color: white;
+    }
+}

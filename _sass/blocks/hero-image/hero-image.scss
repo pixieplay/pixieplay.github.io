@@ -1,0 +1,8 @@
+.hero-image {
+    height: 850px;
+    background: url('../assets/images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@import '__intro-text/hero-image__intro-text';

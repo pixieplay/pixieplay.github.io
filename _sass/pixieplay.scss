@@ -1,0 +1,34 @@
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import 'miscellaneous/vars';
+@import 'blocks/contact-slideout/contact-slideout';
+@import 'blocks/main-nav/main-nav';
+@import 'blocks/main-nav/main-nav-decorator';
+@import 'blocks/hero-image/hero-image';
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: $defaultFontSize;
+    margin: 0;
+    padding: 0;
+}
+
+.cls-1 {
+    fill: #b24700;
+}
+
+.cls-2 {
+    fill: #ff7519;
+}
+
+.cls-3 {
+    fill: #f60;
+}
+
+.cls-4 {
+    fill: #00a9b2;
+}
+
+.cls-5 {
+    fill: #00f1ff;
+}

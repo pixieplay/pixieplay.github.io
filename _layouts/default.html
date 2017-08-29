@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="PixiePlay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %} {{ page.title }} | {% endif %} Pixie Play - It's Play Time</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png"> -->
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <!-- <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png"> -->
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!-- <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png"> -->
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <section class="contact-slideout">
+        <div class="contact-slideout__element">
+            <div class="contact-slideout__element__contact">
+                <i class="fa fa-phone" aria-hidden="true"></i> +91 96771 45121
+            </div>
+            <div class="contact-slideout__element__contact">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> +91 96771 45122
+            </div>
+            <div class="contact-slideout__element__contact">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+            <div class="contact-slideout__element__contact">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="contact-slideout__element">
+            <div class="contact-slideout__element__contact">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> No.25, 4th Cross Street, Dhandeeswaram Nagar, Velachery, Chennai – 600042
+            </div>
+        </div>
+    </section>
+    <nav role="navigation" class="main-nav">
+        <div class="main-nav__menu">
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_orange">
+                <a href="/">Home</a>
+            </div>
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_yellow">
+                <a href="/courses">Courses</a>
+            </div>
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_magenta">
+                <a href="/services">Services</a>
+            </div>
+        </div>
+        <div class="main-nav__logo">
+            <img src="/assets/images/PixiePlay_logo.png" alt="">
+        </div>
+        <div class="main-nav__menu">
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_blue">
+                <a href="/events">Events</a>
+            </div>
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_teal">
+                <a href="/about">About Us</a>
+            </div>
+            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_green">
+                <a href="/contact">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main-nav-decorator"></div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 5"><defs><style>  .cls-1{fill:#b24700;}.cls-2{fill:#ff7519;}.cls-3{fill:#f60;}.cls-4{fill:#00a9b2;}.cls-5{fill:#00f1ff;}</style></defs><title>  Asset 1</title><g data-name="Layer 2"><g data-name="Layer 1"><rect class="cls-1" width="100" height="5"/><rect class="cls-2" x="95" width="100" height="5"/><rect class="cls-3" x="195" width="100" height="5"/><rect class="cls-4" x="295" width="100" height="5"/><rect class="cls-5" x="395" width="100" height="5"/></g></g></svg> -->
+    <div class="hero-image">
+        <div class="hero-image__intro-text">
+            <div class="hero-image__intro-text__small">
+                We Play and Learn:
+            </div>
+            <div class="hero-image__intro-text__large">
+                Who Said Education was Boring?
+            </div>
+        </div>
+    </div>
+
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; 2017 | All Rights Reserved. </p>
+    </footer>
+
+</body>
+
+</html>
