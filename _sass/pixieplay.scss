@@ -1,5 +1,4 @@
 @import 'miscellaneous/vars';
-@import "font-awesome";
 @import 'blocks/contact-slideout/contact-slideout';
 @import 'blocks/main-nav/main-nav';
 @import 'blocks/main-nav/main-nav-decorator';
@@ -12,22 +11,43 @@ body {
     padding: 0;
 }
 
-.cls-1 {
-    fill: #b24700;
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
-.cls-2 {
-    fill: #ff7519;
+
+/* Rules for sizing the icon. */
+
+.material-icons.small {
+    font-size: $smallFontSize;
 }
 
-.cls-3 {
-    fill: #f60;
+.material-icons.default {
+    font-size: $defaultFontSize;
 }
 
-.cls-4 {
-    fill: #00a9b2;
+.material-icons.medium {
+    font-size: $mediumFontSize;
 }
 
-.cls-5 {
-    fill: #00f1ff;
+.material-icons.tiny {
+    font-size: $tinyFontSize;
 }
