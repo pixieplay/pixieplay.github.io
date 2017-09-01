@@ -9,9 +9,15 @@
     &__small {
         font-size: 3rem;
         color: #ffc000;
+        @media #{$phone} {
+            font-size: 1.50rem;
+        }
     }
     &__large {
         font-size: 4rem;
         color: white;
+        @media #{$phone} {
+            font-size: 1.75rem;
+        }
     }
 }

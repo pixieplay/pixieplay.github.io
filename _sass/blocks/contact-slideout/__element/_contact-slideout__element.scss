@@ -9,5 +9,8 @@
     .contact-slideout__element__contact {
         display: inline;
         margin-right: 10px;
+        @media #{$phone} {
+            display: none;
+        }
     }
 }

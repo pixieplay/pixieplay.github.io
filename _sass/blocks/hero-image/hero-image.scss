@@ -4,6 +4,9 @@
     background: url('../assets/images/hero-image.jpg');
     background-size: cover;
     background-position: center;
+    @media #{$phone} {
+        height: 290px;
+    }
 }
 
 @import '__intro-text/hero-image__intro-text';
