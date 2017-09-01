@@ -6,6 +6,12 @@
     font-family: 'Spicy Rice';
     text-align: left;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    @media #{$landscape} {
+        left: 8%;
+    }
+    @media #{$phone} {
+        left: 10%;
+    }
     &__small {
         font-size: 3rem;
         color: #ffc000;
