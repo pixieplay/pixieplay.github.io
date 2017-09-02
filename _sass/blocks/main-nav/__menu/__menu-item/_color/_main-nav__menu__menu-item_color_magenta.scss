@@ -1,6 +1,12 @@
 .main-nav__menu__menu-item_color_magenta {
     a:link,
     a:visited {
-        color: #a671be;
+        color: #A571BE;
+    }
+    a:hover {
+        background-color: #A571BE;
+        color: white;
+        border-radius: 10px;
+        transition: all 0.4s;
     }
 }

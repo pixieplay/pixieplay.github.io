@@ -1,0 +1,8 @@
+.info__items__item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    @media #{$phone} {
+        margin: 1rem 0;
+    }
+}

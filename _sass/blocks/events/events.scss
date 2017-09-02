@@ -1,12 +1,13 @@
-.main-services {
+.events {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     background-image: url('../assets/images/common/geometry-pattern.png');
     padding: 3.125rem;
 }
 
-@import '__element/main-services__element';
+@import '__image/events__image';
+@import '__lists/events__lists';

@@ -1,0 +1,5 @@
+.button_color_orange {
+    background-color: $pixieplayOrange;
+    border-bottom: medium solid darken($pixieplayOrange, 15%);
+    text-shadow: 0px -2px darken($pixieplayOrange, 15%);
+}

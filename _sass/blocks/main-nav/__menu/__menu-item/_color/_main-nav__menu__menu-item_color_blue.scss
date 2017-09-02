@@ -3,4 +3,10 @@
     a:visited {
         color: #7a8ed9;
     }
+    a:hover {
+        background-color: #7a8ed9;
+        color: white;
+        border-radius: 10px;
+        transition: all 0.4s;
+    }
 }

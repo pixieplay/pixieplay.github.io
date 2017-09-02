@@ -1,17 +1,16 @@
-.welcome__text {
+.events__lists {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
     width: 600px;
     h1 {
-        width: 311px;
-        margin-top: 0;
         font-family: 'Spicy Rice';
-        font-size: 64px;
+        font-size: 40px;
         @media #{$phone} {
-            margin-top: 1rem;
             font-size: 24px;
             width: 311px;
         }
     }
 }
+
+@import '__lists__list/events__lists__list';

@@ -1,0 +1,18 @@
+footer {
+    position: relative;
+    color: white;
+    height: 126px;
+    background-color: $pixieplayBlue;
+}
+
+.footer-decorator {
+    position: absolute;
+    top: -24px;
+    height: 16px;
+    width: 100%;
+    svg {
+        display: block;
+    }
+}
+
+@import '__elements/footer__elements'

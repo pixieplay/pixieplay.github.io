@@ -3,4 +3,10 @@
     a:visited {
         color: $pixieplayBlue;
     }
+    a:hover {
+        background-color: $pixieplayBlue;
+        color: white;
+        border-radius: 10px;
+        transition: all 0.4s;
+    }
 }

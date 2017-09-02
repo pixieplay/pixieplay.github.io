@@ -1,0 +1,23 @@
+.button {
+    position: relative;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.button:active {
+    transform: translate(0px, 5px);
+    border-bottom: 0px solid;
+}
+
+@import '_color/button_color';
