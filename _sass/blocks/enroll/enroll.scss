@@ -1,0 +1,20 @@
+.enroll {
+    background-color: #a7c850;
+    position: relative;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.enroll-decorator {
+    position: absolute;
+    top: -24px;
+    height: 16px;
+    width: 100%;
+}
+
+@import '__text/enroll__text';

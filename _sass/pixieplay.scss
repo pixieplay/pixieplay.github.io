@@ -4,12 +4,18 @@
 @import 'blocks/main-nav/main-nav-decorator';
 @import 'blocks/hero-image/hero-image';
 @import 'blocks/main-services/main-services';
+@import 'blocks/welcome/welcome';
+@import 'blocks/enroll/enroll';
 html,
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     font-size: $defaultFontSize;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 .material-icons {

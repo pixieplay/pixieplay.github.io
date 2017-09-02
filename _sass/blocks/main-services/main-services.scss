@@ -1,4 +1,12 @@
-.main_services {
-    height: 350px;
-    background-image: url('../assets/images/geometry-pattern.png');
+.main-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    background-image: url('../assets/images/common/geometry-pattern.png');
+    padding: 3.125rem;
 }
+
+@import '__element/main-services__element';

@@ -1,20 +1,20 @@
 .hero-image {
     position: relative;
     height: 690px;
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        height: 850px;
-        background: url('../assets/images/hero-image-2x.jpg');
-        background-size: cover;
-        background-position: center;
-    }
     @media #{$desktop} {
-        background: url('../assets/images/hero-image-1x.jpg');
+        background: url('../assets/images/home/hero-image-1x.jpg');
         background-size: cover;
         background-position: center;
     }
     @media #{$phone} {
         height: 290px;
-        background: url('../assets/images/hero-image-mobile.jpg');
+        background: url('../assets/images/home/hero-image-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    @media #{$retinaDesktopDisplay} {
+        height: 850px;
+        background: url('../assets/images/home/hero-image-2x.jpg');
         background-size: cover;
         background-position: center;
     }

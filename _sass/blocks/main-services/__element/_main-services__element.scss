@@ -1,0 +1,19 @@
+.main-services__element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 0 3.25rem;
+    @media #{$phone} {
+        margin: 0.5rem 1rem;
+    }
+}
+
+@import '__service-image/main-services__element__service-image';
+@import '__service-image/_main-services__element__service-image_background';
+@import '__service-name/main-services__element__service-name';
