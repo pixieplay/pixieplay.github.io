@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %} {{ page.title }} | {% endif %} Pixie Play - It's Play Time</title>
 
-    <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
 
     <meta name="theme-color" content="#00a9b2">
@@ -47,57 +46,7 @@
             <span>Menu</span>
         </div>
     </section>
-    <nav role="navigation" class="mobile-nav">
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_orange">
-            <a href="/" class="active">Home</a>
-        </div>
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_yellow">
-            <a href="/courses">Courses</a>
-        </div>
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_magenta">
-            <a href="/services">Services</a>
-        </div>
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_blue">
-            <a href="/events">Events</a>
-        </div>
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_teal">
-            <a href="/about">About Us</a>
-        </div>
-        <div class="mobile-nav__menu-item mobile-nav__menu-item_color_green">
-            <a href="/contact">Contact Us</a>
-        </div>
-    </nav>
-    <nav role="navigation" class="main-nav">
-        <div class="main-nav__menu">
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_orange">
-                <a href="/" class="active">Home</a>
-            </div>
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_yellow">
-                <a href="/courses">Courses</a>
-            </div>
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_magenta">
-                <a href="/services">Services</a>
-            </div>
-        </div>
-        <div class="main-nav__logo">
-            <img src="/assets/images/common/pixieplay-logo-2x.png" alt="">
-        </div>
-        <div class="main-nav__menu">
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_blue">
-                <a href="/events">Events</a>
-            </div>
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_teal">
-                <a href="/about">About Us</a>
-            </div>
-            <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_green">
-                <a href="/contact">Contact Us</a>
-            </div>
-        </div>
-    </nav>
-    <div class="main-nav-decorator"></div>
-    <main>
-        {{ content }}
-    </main>
+    {{ content }}
     <footer>
         <div class="footer-decorator">
             <svg width="100%">

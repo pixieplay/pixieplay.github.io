@@ -1,0 +1,48 @@
+<nav role="navigation" class="mobile-nav">
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_orange">
+        <a href="/" class="{% if page.path contains 'index' %}active{% endif %}">Home</a>
+    </div>
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_yellow">
+        <a href="/courses" class="{% if page.path contains 'courses' %}active{% endif %}">Courses</a>
+    </div>
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_magenta">
+        <a href="/services" class="{% if page.path contains 'services' %}active{% endif %}">Services</a>
+    </div>
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_blue">
+        <a href="/events" class="{% if page.path contains 'events' %}active{% endif %}">Events</a>
+    </div>
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_teal">
+        <a href="/about" class="{% if page.path contains 'about' %}active{% endif %}">About Us</a>
+    </div>
+    <div class="mobile-nav__menu-item mobile-nav__menu-item_color_green">
+        <a href="/contact" class="{% if page.path contains 'contact' %}active{% endif %}">Contact Us</a>
+    </div>
+</nav>
+<nav role="navigation" class="main-nav">
+    <div class="main-nav__menu">
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_orange">
+            <a href="/" class="{% if page.path contains 'index' %}active{% endif %}">Home</a>
+        </div>
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_yellow">
+            <a href="/courses" class="{% if page.path contains 'courses' %}active{% endif %}">Courses</a>
+        </div>
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_magenta">
+            <a href="/services" class="{% if page.path contains 'services' %}active{% endif %}">Services</a>
+        </div>
+    </div>
+    <div class="main-nav__logo">
+        <img src="/assets/images/common/pixieplay-logo-2x.png" alt="">
+    </div>
+    <div class="main-nav__menu">
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_blue">
+            <a href="/events" class="{% if page.path contains 'events' %}active{% endif %}">Events</a>
+        </div>
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_teal">
+            <a href="/about" class="{% if page.path contains 'about' %}active{% endif %}">About Us</a>
+        </div>
+        <div class="main-nav__menu__menu-item main-nav__menu__menu-item_color_green">
+            <a href="/contact" class="{% if page.path contains 'contact' %}active{% endif %}">Contact Us</a>
+        </div>
+    </div>
+</nav>
+<div class="main-nav-decorator"></div>

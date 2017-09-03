@@ -1,0 +1,17 @@
+.page-header {
+    height: 250px;
+    font-family: 'Spicy Rice';
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    @media #{$phone} {
+        height: 80px;
+        font-size: 1.5rem;
+    }
+}
+
+@import '_background/page-header_background';

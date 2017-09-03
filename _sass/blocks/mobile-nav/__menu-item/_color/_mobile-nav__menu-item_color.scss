@@ -8,20 +8,40 @@
 
 .mobile-nav__menu-item_color_blue {
     @extend %a-color_blue;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid #7a8ed9;
+    }
 }
 
 .mobile-nav__menu-item_color_green {
     @extend %a-color_green;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid #a7c850;
+    }
 }
 
 .mobile-nav__menu-item_color_magenta {
     @extend %a-color_magenta;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid #A571BE;
+    }
 }
 
 .mobile-nav__menu-item_color_teal {
     @extend %a-color_teal;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid $pixieplayBlue;
+    }
 }
 
 .mobile-nav__menu-item_color_yellow {
     @extend %a-color_yellow;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid #ffc000;
+    }
 }
