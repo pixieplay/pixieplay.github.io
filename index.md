@@ -5,11 +5,91 @@
 layout: default
 title: Home
 ---
-
-<section role="banner">
-
+<div class="hero-image">
+    <div class="hero-image__intro-text ">
+        <div class="hero-image__intro-text__small ">
+            We Play and Learn:
+        </div>
+        <div class="hero-image__intro-text__large ">
+            Who Said Education was Boring?
+        </div>
+    </div>
+</div>
+<section class="main-services">
+    <div class="main-services__element">
+        <div class="main-services__element__service-image main-services__element__service-image_environment"></div>
+        <div class="main-services__element__service-name">HAPPY ENVIRONMENT</div>
+    </div>
+    <div class="main-services__element">
+        <div class="main-services__element__service-image main-services__element__service-image_learning"></div>
+        <div class="main-services__element__service-name">ACTIVE LEARNING</div>
+    </div>
+    <div class="main-services__element">
+        <div class="main-services__element__service-image main-services__element__service-image_ideas"></div>
+        <div class="main-services__element__service-name">CREATIVE LESSONS</div>
+    </div>
+    <div class="main-services__element">
+        <div class="main-services__element__service-image main-services__element__service-image_play-area"></div>
+        <div class="main-services__element__service-name">AMAZING PLAY AREA</div>
+    </div>
 </section>
- 
-<section class="content">
- 
+<section class="welcome">
+    <div class="welcome__image"></div>
+    <div class="welcome__text">
+        <h1>Welcome to Pixie Play!</h1>
+        <p>
+            Pixie Play is a Play School, Indoor &amp; Outdoor Play Space and Party Facility dedicated to children.
+        </p>
+        <p>
+            More of a toy space than a soft play, you will love that Pixie Play is spotlessly clean and organised (perhaps because it’s run by a team of mamas!).
+        </p>
+        <p>
+            We believe that playing is a valuable learning tool.The place is designed to provide children under 7 years old (or less than 130cm in height) an imaginative, challenging, and fun yet safe environment to play and explore.
+        </p>
+        <p>
+            We provide a school environment that fosters positive self esteem, mindfulness through engaging hands on learning to allow our student's natural abilities, personality and talents to shine through.
+        </p>
+        <button class="button button_color_orange">Why Pixieplay</button>
+    </div>
+</section>
+<section class="enroll">
+    <div class="enroll-decorator">
+        <svg width="100%">
+            <defs>
+                <pattern id="pattern" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+                <circle cx="8" cy="8" r="8" stroke="none" fill="#a7c850" />
+                </pattern>
+            </defs>
+            <rect x="" y="16" width="100%" height="16" fill="url(#pattern)" />
+        </svg>
+    </div>
+    <div class="enroll__text">
+        <h1>HOW TO ENROLL YOUR CHILD TO A CLASS?</h1>
+        <p>Interested in good preschool education for your child? Our kindergarten is the right decision!</p>
+    </div>
+    <button class="button button_color_orange">Find our more</button>
+</section>
+<section class="events">
+    <div class="events__image"></div>
+    <div class="events__lists">
+        <h1>UPCOMING EVENTS</h1>
+        <div class="events__lists__list">
+            No Upcoming Events
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="info__logo"></div>
+    <div class="info__items">
+        <div class="info__items__item">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> No.25, 4th Cross Street, Dhandeeswaram Nagar, Velachery, Chennai – 600042
+        </div>
+        <div class="info__items__item">
+            <i class="fa fa-clock-o" aria-hidden="true"></i> Monday - Friday: 7:30 am - 17:00 pm, Saturday: 8:00 am - 15:00 pm
+        </div>
+        <div class="info__items__item">
+            <i class="fa fa-phone" aria-hidden="true"></i> +91 96771 45121
+            <i class="fa fa-whatsapp" aria-hidden="true"></i> +91 96771 45122
+        </div>
+    </div>
 </section>

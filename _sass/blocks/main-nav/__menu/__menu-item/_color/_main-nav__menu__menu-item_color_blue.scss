@@ -1,8 +1,5 @@
 .main-nav__menu__menu-item_color_blue {
-    a:link,
-    a:visited {
-        color: #7a8ed9;
-    }
+    @extend %a-color_blue;
     a:hover {
         background-color: #7a8ed9;
         color: white;

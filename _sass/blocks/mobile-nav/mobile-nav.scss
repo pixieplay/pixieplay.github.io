@@ -1,0 +1,25 @@
+.mobile-nav {
+    display: none;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #f4f4f4;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 2s, opacity 0.5s linear;
+    &.active {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: stretch;
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+@import '__menu-item/mobile-nav__menu-item';

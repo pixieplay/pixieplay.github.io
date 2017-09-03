@@ -1,0 +1,27 @@
+.mobile-nav__menu-item_color_orange {
+    @extend %a-color_orange;
+    a:link.active,
+    a:link.visited {
+        border-bottom: medium solid $pixieplayOrange;
+    }
+}
+
+.mobile-nav__menu-item_color_blue {
+    @extend %a-color_blue;
+}
+
+.mobile-nav__menu-item_color_green {
+    @extend %a-color_green;
+}
+
+.mobile-nav__menu-item_color_magenta {
+    @extend %a-color_magenta;
+}
+
+.mobile-nav__menu-item_color_teal {
+    @extend %a-color_teal;
+}
+
+.mobile-nav__menu-item_color_yellow {
+    @extend %a-color_yellow;
+}

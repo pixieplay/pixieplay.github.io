@@ -1,8 +1,5 @@
 .main-nav__menu__menu-item_color_orange {
-    a:link,
-    a:visited {
-        color: $pixieplayOrange;
-    }
+    @extend %a-color_orange;
     a:hover {
         background-color: $pixieplayOrange;
         color: white;

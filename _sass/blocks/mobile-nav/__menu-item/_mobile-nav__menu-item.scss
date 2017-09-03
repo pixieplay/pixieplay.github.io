@@ -1,0 +1,9 @@
+.mobile-nav__menu-item {
+    order: 0;
+    font-weight: 500;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding: 0.5rem;
+}
+
+@import '_color/mobile-nav__menu-item_color';
