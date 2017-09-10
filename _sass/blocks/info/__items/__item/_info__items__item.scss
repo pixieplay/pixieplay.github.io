@@ -2,6 +2,7 @@
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
+    line-height: 1.5rem;
     @media #{$phone} {
         margin: 1rem 0;
     }

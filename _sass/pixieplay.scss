@@ -69,6 +69,10 @@ a[href^="tel:"] {
     text-decoration: none;
 }
 
+.fa {
+    display: inline;
+}
+
 h1 {
     font: $headingFont;
     font-weight: normal;
