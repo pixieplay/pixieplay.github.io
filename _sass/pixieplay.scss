@@ -13,12 +13,36 @@
 @import 'blocks/button/button';
 @import 'blocks/page-header/page-header';
 @import 'blocks/page/page';
+@import 'blocks/grid/grid';
+@import 'blocks/card-list/card-list';
 html,
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     font-size: $defaultFontSize;
     margin: 0;
     padding: 0;
+    min-height: 100%;
+}
+
+blockquote {
+    background: #F1F1F1;
+    border-left: 6px solid $pixieplayOrange;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: $pixieplayBlue;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+address {
+    font-style: normal;
 }
 
 a:link {
@@ -29,8 +53,34 @@ a:hover {
     text-decoration: none;
 }
 
+a {
+    i {
+        color: white;
+    }
+}
+
+svg {
+    pointer-events: none;
+}
+
+a.link,
+a[href^="tel:"] {
+    color: $pixieplayBlue;
+    text-decoration: none;
+}
+
 h1 {
+    font: $headingFont;
     font-weight: normal;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+    @media #{$phone} {
+        width: 100%;
+        height: 200px;
+    }
 }
 
 .material-icons {

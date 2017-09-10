@@ -1,0 +1,14 @@
+.card-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.card-list_inline {
+    flex-direction: row;
+}
+
+@import '__item/card-list__item';

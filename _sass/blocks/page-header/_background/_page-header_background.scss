@@ -3,14 +3,11 @@
 }
 
 .page-header_background_space::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: $pixieplayBlue;
-    background-image: url('../assets/images/courses/space-pattern.png');
-    opacity: .1;
-    content: "";
-    z-index: -1;
+    @extend %page-header;
+    background-image: url('../assets/images/programmes/chalkboard.jpg');
+}
+
+.page-header_background_services::before {
+    @extend %page-header;
+    background-image: url('../assets/images/services/lego.png');
 }

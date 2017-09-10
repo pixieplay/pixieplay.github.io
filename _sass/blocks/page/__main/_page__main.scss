@@ -1,0 +1,8 @@
+.page__main {
+    padding: 1rem;
+    text-align: justify;
+    max-width: 75%;
+    @media #{$phone} {
+        max-width: 100%;
+    }
+}
