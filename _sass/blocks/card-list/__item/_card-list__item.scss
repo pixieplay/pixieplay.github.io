@@ -19,6 +19,9 @@
     }
     .card-list__item__text {
         padding: 1rem;
+        @media #{$phone} {
+            padding: 0.25rem;
+        }
         h1 {
             font: $headingFont;
         }
