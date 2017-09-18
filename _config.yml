@@ -29,14 +29,7 @@ markdown: kramdown
 host: 0.0.0.0
 plugins:
   - jekyll-feed
-  - jekyll-assets
-  - uglifier
   - jekyll-sitemap
-  - sass
-# style: compressed
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - node_modules/
-#   - gulpfile.js
+sass:
+  sass_dir: _sass
+  style: compressed
