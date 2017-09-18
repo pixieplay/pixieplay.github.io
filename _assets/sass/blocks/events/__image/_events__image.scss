@@ -1,0 +1,19 @@
+.events__image {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 409px;
+    height: 405px;
+    background: url('../assets/images/home/events-1x.png');
+    background-size: cover;
+    background-position: center;
+    @media #{$retinaDesktopDisplay} {
+        background: url('../assets/images/home/events-2x.png');
+        background-size: cover;
+        background-position: center;
+    }
+    @include mq($until: tablet) {
+        height: 275px;
+        width: 280px;
+    }
+}

@@ -1,0 +1,29 @@
+.hero-image__intro-text {
+    position: absolute;
+    pointer-events: none;
+    left: 15%;
+    bottom: 20%;
+    font-family: 'Spicy Rice';
+    text-align: left;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    @media #{$landscape} {
+        left: 8%;
+    }
+    @include mq($until: tablet) {
+        left: 10%;
+    }
+    &__small {
+        font-size: 3rem;
+        color: #00f1ff;
+        @include mq($until: tablet) {
+            font-size: 1.50rem;
+        }
+    }
+    &__large {
+        font-size: 4rem;
+        color: white;
+        @include mq($until: tablet) {
+            font-size: 1.75rem;
+        }
+    }
+}

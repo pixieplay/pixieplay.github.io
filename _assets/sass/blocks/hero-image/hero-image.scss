@@ -1,0 +1,23 @@
+.hero-image {
+    position: relative;
+    height: 690px;
+    @include mq($until: tablet) {
+        height: 290px;
+        background: url('../assets/images/home/hero-image-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    @include mq($from: tablet) {
+        background: url('../assets/images/home/hero-image-1x.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    @include mq($from: wide) {
+        height: 850px;
+        background: url('../assets/images/home/hero-image-2x.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@import '__intro-text/hero-image__intro-text';

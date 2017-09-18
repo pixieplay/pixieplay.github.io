@@ -1,0 +1,9 @@
+.contact-slideout__mobile-menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    padding-right: 10px;
+    @include mq($until: desktop, $and: '(orientation: portrait)') {
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    padding: 3.125rem;
+    @include mq($until: tablet) {
+        padding: 1.5rem;
+    }
+}
+
+@import '__logo/info__logo';
+@import '__items/info__items';

@@ -1,0 +1,20 @@
+.contact-slideout {
+    height: 34px;
+    background-color: $pixieplayBlue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    @include mq($until: desktop) {
+        justify-content: flex-end;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    align-content: stretch;
+    align-items: center;
+}
+
+@import '__element/contact-slideout__element';
+@import '__mobile-menu/contact-slideout__mobile-menu';

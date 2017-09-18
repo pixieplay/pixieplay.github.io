@@ -1,0 +1,14 @@
+.main-services {
+    display: flex;
+    flex-direction: row;
+    @include mq($until: desktop, $and: '(orientation: portrait)') {
+        flex-wrap: wrap;
+    }
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    background-image: url('../assets/images/common/geometry-pattern.png');
+    padding: 3.125rem;
+}
+
+@import '__element/main-services__element';

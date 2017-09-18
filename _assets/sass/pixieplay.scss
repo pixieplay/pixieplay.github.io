@@ -1,0 +1,131 @@
+@import 'miscellaneous/mq';
+@import 'miscellaneous/vars';
+@import 'blocks/contact-slideout/contact-slideout';
+@import 'blocks/main-nav/main-nav';
+@import 'blocks/mobile-nav/mobile-nav';
+@import 'blocks/main-nav/main-nav-decorator';
+@import 'blocks/hero-image/hero-image';
+@import 'blocks/main-services/main-services';
+@import 'blocks/welcome/welcome';
+@import 'blocks/enroll/enroll';
+@import 'blocks/events/events';
+@import 'blocks/info/info';
+@import 'blocks/footer/footer';
+@import 'blocks/button/button';
+@import 'blocks/page-header/page-header';
+@import 'blocks/page/page';
+@import 'blocks/grid/grid';
+@import 'blocks/card-list/card-list';
+// @include mq-show-breakpoints((S, L, XL), (S: 300px, L: 800px, XL: 1200px));
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: $defaultFontSize;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+blockquote {
+    background: #F1F1F1;
+    border-left: 6px solid $pixieplayOrange;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: $pixieplayBlue;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+address {
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    i {
+        color: white;
+    }
+}
+
+svg {
+    pointer-events: none;
+}
+
+a.link,
+a[href^="tel:"] {
+    color: $pixieplayBlue;
+    text-decoration: none;
+}
+
+.fa {
+    display: inline;
+}
+
+h1 {
+    font: $headingFont;
+    font-weight: normal;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+    @include mq($until: tablet) {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+/* Rules for sizing the icon. */
+
+.material-icons.small {
+    font-size: $smallFontSize;
+}
+
+.material-icons.default {
+    font-size: $defaultFontSize;
+}
+
+.material-icons.medium {
+    font-size: $mediumFontSize;
+}
+
+.material-icons.tiny {
+    font-size: $tinyFontSize;
+}

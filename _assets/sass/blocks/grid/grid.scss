@@ -1,0 +1,20 @@
+.grid {
+    margin: 3rem 1rem;
+    @include mq($until: tablet) {
+        margin: 1rem;
+    }
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    .column {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        width: 600px;
+        align-self: top;
+    }
+}

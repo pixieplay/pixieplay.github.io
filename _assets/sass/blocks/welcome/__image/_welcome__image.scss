@@ -1,0 +1,19 @@
+.welcome__image {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 454px;
+    height: 450px;
+    background: url('../assets/images/home/why-pixieplay-1x.png');
+    background-size: cover;
+    background-position: center;
+    @media #{$retinaDesktopDisplay} {
+        background: url('../assets/images/home/why-pixieplay-2x.png');
+        background-size: cover;
+        background-position: center;
+    }
+    @include mq($until: tablet) {
+        height: 275px;
+        width: 280px;
+    }
+}

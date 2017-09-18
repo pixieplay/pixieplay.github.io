@@ -29,9 +29,15 @@ markdown: kramdown
 host: 0.0.0.0
 plugins:
   - jekyll-feed
-sass:
-  sass_dir: _sass
-  style: nested
+  - jekyll-assets
+  - uglifier
+  - sass
+assets:
+  digest: true
+  sources:
+    - _assets/sass
+    - _assets/js
+# style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

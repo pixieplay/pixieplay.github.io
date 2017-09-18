@@ -1,0 +1,16 @@
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    height: 100px;
+    background: white;
+    @include mq($until: desktop) {
+        padding-top: 40px;
+    }
+}
+
+@import '__logo/main-nav__logo';
+@import '__menu/main-nav__menu';

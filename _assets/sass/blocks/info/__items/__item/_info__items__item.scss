@@ -1,0 +1,9 @@
+.info__items__item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    line-height: 1.5rem;
+    @include mq($until: tablet) {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,16 @@
+.contact-slideout__element {
+    order: 0;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    align-self: auto;
+    color: white;
+    font-size: $mediumFontSize;
+    .contact-slideout__element__contact {
+        display: inline;
+        margin-right: 10px;
+        @include mq($until: desktop, $and: '(orientation: portrait)') {
+            display: none;
+        }
+    }
+}
