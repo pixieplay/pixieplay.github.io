@@ -33,13 +33,6 @@ plugins:
   - uglifier
   - jekyll-sitemap
   - sass
-assets:
-  digest: true
-  sources:
-    - _assets/sass
-    - _assets/js
-  features:
-    liquid: true
 # style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
